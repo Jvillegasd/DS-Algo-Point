@@ -62,6 +62,7 @@
 - Muskan Gupta - @muskangupta19
 - Priyal - @priyal2806
 - Mahima Goyal - @mahimagoyalx
+- Johnny Villegas - @Jvillegas
 
 <br/>
 
