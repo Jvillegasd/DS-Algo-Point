@@ -59,7 +59,31 @@ int main() {
     fill DAG "g" and its reverse "rg". Reverse DAG is the same DAG "g" but
     edges are pointing to oppposite direction.
   */
-
+  
+  /*
+    Input graph "g":
+    
+    ||========||
+    ||        ||
+    1 => 2 => 3 => 4 => 5 =||
+              ^^           ||
+              ||===========||
+              
+  */
+  g[1].push_back(2);
+  g[2].push_back(3);
+  g[3].push_back(4);
+  g[4].push_back(5);
+  g[5].push_back(3);
+  g[3].push_back(1);
+  
+  rg[2].push_back(1);
+  rg[3].push_back(2);
+  rg[4].push_back(3);
+  rg[5].push_back(4);
+  rg[3].push_back(5);
+  rg[1].push_back(3); 
+  
   SCC();
   return 0;
 }
